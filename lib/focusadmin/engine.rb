@@ -3,7 +3,7 @@ module Focusadmin
     isolate_namespace Focusadmin
 
     initializer "focusadmin.assets.precompile" do |app|
-      app.config.assets.precompile += %w( focusadmin/*.js focusadmin/*.scss )
+      app.config.assets.precompile += %w( focusadmin/* focusadmin/* )
     end
   end
 end
